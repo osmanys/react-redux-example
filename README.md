@@ -1,3 +1,7 @@
+React-redux example from https://hackernoon.com/react-redux-for-lazy-developers-b551f16a456f
+https://github.com/evheniy/react-redux-example
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

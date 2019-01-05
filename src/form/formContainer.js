@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 
 const FormContainer = FormComponent => {
     return class App extends Component {
@@ -30,4 +30,12 @@ const FormContainer = FormComponent => {
     }
 };
 
-export default FormContainer;
+export default FormContainer;*/
+
+import { connect } from 'react-redux';
+import { textAction, submitAction } from './actions';
+
+const mapStateToProps = state => state.form;
+const mapDispatchToProps = { textAction, submitAction };
+
+export default connect(mapStateToProps, mapDispatchToProps);
